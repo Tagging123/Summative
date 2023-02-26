@@ -1,0 +1,50 @@
+.aw{
+    /* border: 1px solid red; */
+}
+
+.content_1{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.content_1 .img{
+    padding: 0;
+    margin-right: 80px;
+}
+
+.content_1 .img img{
+    width: 100%;
+}
+
+.content_1 .desc h1{
+    font-weight: 800;
+    letter-spacing: 3px;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .content_1{
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+    }
+
+    .content_1 .img{
+        margin: 0;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .content_1 .img img{
+        width: 85%;
+    }
+
+    .content_1 .desc{
+        text-align: center;
+    }
+}

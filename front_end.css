@@ -1,0 +1,139 @@
+.aw{
+    /* border: 1px solid red; */
+}
+
+#navibar{
+    box-shadow: 0px 10px 1px rgba(0, 0, 0, 0.1);
+}
+
+/* Content 1 */
+
+.content_1{
+    margin-top: 5%;
+}
+
+.content_1 .desc{
+    margin: 0;
+    padding: 0;
+    /* margin-right: 50px; */
+}
+
+.content_1 h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.content_1 p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    text-align: justify;
+    padding: 0;
+    margin: 0;
+    padding-right: 50px;
+}
+
+.content_1 .img{
+    margin: 0;
+    padding: 0;
+}
+
+.content_1 .img img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+/* Content 2 */
+
+.content_2 {
+    margin-top: 3%;
+}
+
+.content_2 .hr hr{
+    color: #9EA1D4;
+    height: 2px;
+}
+
+.content_2 .title{
+    margin: 0;
+    padding: 0;
+    /* margin-right: 50px; */
+}
+
+.content_2 .title h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.content_22 .courses{
+    margin: 0;
+    padding: 20px;
+    border: 1px solid #c7c7c7;
+    border-radius: 15px;
+}
+
+.content_22 .courses .card{
+    display: inline-block;
+    width: 33.072%;
+}
+
+.content_22 .courses .card .card-body h5{
+    font-weight: bold;
+}
+
+.content_22 .courses .card .card-body a{
+    background-color: #9EA1D4;
+    outline: none;
+    border: none;
+}
+
+.content_22 .courses .card .card-body a:hover{
+    box-shadow: 0px 0px 0px 5px rgba(158, 161, 212, 0.5);
+}
+
+.content_22 .courses .card .card-body a:focus{
+    box-shadow: 0px 0px 0px 5px rgba(158, 161, 212, 0.5);
+}
+
+@media only screen and (max-width: 768px) {
+    .content_1{
+        padding: 0;
+        margin: 40px;
+        margin-bottom: 20px;
+    }
+
+    .content_1 p{
+        padding: 0;
+    }
+
+    .content_1 .img{
+        margin-top: 20px;
+    }
+
+    .content_2{
+        padding: 0;
+        margin: 0;
+        margin: 0 40px;
+    }
+
+    .content_22{
+        padding: 0;
+        margin: 0;
+        margin: 40px;
+        margin-top: 10px;
+    }
+
+    .content_22 .courses .card{
+        display: block;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .content_22 .courses .card.exclude{
+        margin-bottom: 0;
+    }
+
+
+
+}
